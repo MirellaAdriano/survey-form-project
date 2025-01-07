@@ -1,0 +1,142 @@
+!Doctype html
+
+html lang=en 
+
+head
+  link rel=stylesheet href=styles.css 
+  meta charset=8-UTF
+  link rel=stylesheet href=styles.css
+  titlefreeCodeCamp Survey Formtitle
+head
+div
+    body
+      h1 id=titlefreeCodeCamp Survey Formh1
+      p id=descriptionThank you for taking the time to help us improve the platformp
+
+      form id=survey-form
+      div
+        label id=name-labelNome label
+        input 
+            id=name 
+            placeholder=Enter your name 
+            required
+        input
+      div
+      div
+        label id=email-labelE-mail label
+        input 
+            id=email 
+            type=email 
+            placeholder=Enter your Email 
+            required
+        input
+      div
+      div
+        label id=number-labelAge (Optional) label
+        input 
+            type=number 
+            id=number 
+            min=1 
+            max=130 
+            placeholder=Age
+        input
+      div
+      div
+        label for=currentRoleWhich option best describes your current role
+            select id=dropdown name=currentRole required
+              option value= Select current roleoption
+              option value=1Studentoption
+              option value=2Full time joboption
+              option value=3Full time learneroption
+              option value=4Prefer not to sayoption
+              option value=5Otheroption
+            select
+        label
+      div
+      div
+          pWould you recommend freeCodeCamp to a friendp
+          label
+            input
+              name=user-recommend
+              value=definitely
+              type=radio
+              class=input-radio
+              checked
+            Definitelylabel
+          label
+            input
+              name=user-recommend
+              value=maybe
+              type=radio
+              class=input-radio
+            Maybelabel
+
+          label
+            input
+              name=user-recommend
+              value=not-sure
+              type=radio
+              class=input-radio
+            Not surelabel
+        div   
+        div
+        label for=favourite-featureWhat is your favorite feature of freeCodeCamplabel
+            select id=dropdown name=dropdown required
+              option value= Select an optionoption
+              option value=1Challengesoption
+              option value=2Projectsoption
+              option value=3Communityoption
+              option value=4Open sourceoption
+            select
+        label
+        div
+        div
+        h2What would you like to see improved (Check all that apply)h2
+          checkbox
+          label for=frontendProjects
+            input class=inline id=frontendProjects type=checkbox value=frontendProjects name=frontendProjects  Front-end Projectsinput
+          label
+          label for=backendProjects
+            input class=inline id=backendProjects type=checkbox value=backendProjects name=backendProjects  Back-end Projectsinput
+          label
+          label for=dataVisualization
+            input class=inline id=dataVisualization type=checkbox value=dataVisualization name=dataVisualization  Data Visualizationinput
+          label
+          label for=challenges
+            input class=inline id=challenges type=checkbox value=challenges name=challenges  Challengesinput
+          label
+          label for=openSourceComm
+            input class=inline id=openSourceComm type=checkbox value=openSourceComm name=openSourceComm  Open Source Communityinput
+          label
+          label for=gitterHelpRooms
+            input class=inline id=gitterHelpRooms type=checkbox value=gitterHelpRooms name=gitterHelpRooms  Gitter help roomsinput
+          label
+          label for=videos
+            input class=inline id=videos type=checkbox value=videos name=videos  Videosinput
+          label
+          label for=cityMeetups
+            input class=inline id=cityMeetups type=checkbox value=cityMeetups name=cityMeetups  City Meetupsinput
+          label
+          label for=wiki
+            input class=inline id=wiki type=checkbox value=wiki name=wiki  Wikiinput
+          label
+          label for=forum
+            input class=inline id=forum type=checkbox value=forum name=forum  Foruminput
+          label
+          label for=additionalCourses
+            input class=inline id=additionalCourses type=checkbox value=additionalCourses name=additionalCourses  Additional Coursesinput
+          label
+          checkbox
+        div
+        div
+        label for=commentsAny comments or suggestions
+              textarea id=comments name=comments rows=3 cols=30 placeholder=Enter your comment here...textarealabel
+        div
+        div
+          input type=submit value=Submit id=submit
+        div
+        form
+    body
+div
+html
+
