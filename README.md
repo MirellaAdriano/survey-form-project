@@ -27,7 +27,7 @@ This project is a responsive **Survey Form** designed to collect user feedback, 
 4. Open `index.html` in a browser to view the form.
 
 ## Author
-This project was created by [Mirella Adriano](https://github.com/MirellaAdriano).
+This project was created by [Mirella Adriano](https://www.linkedin.com/in/mirella-adriano-cc231281/).
 
 ## How to Contribute
 1. Fork the repository.
